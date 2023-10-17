@@ -12,10 +12,13 @@
 	<h1>JSF 01 - ziarno, formularz, parametry, nawigacja, messages</h1>
 
 	<h:form id="bla">
-  		x: <h:inputText value="#{calcBB.x}" />
+  		Kwota: <h:inputText value="#{calcBB.kwota}" />
 		<br />
-  		y: <h:inputText value="#{calcBB.y}" />
+  		Oprocentowanie: <h:inputText value="#{calcBB.oprocentowanie}" />
 		<br />
+  		Czas: <h:inputText value="#{calcBB.czas}" />
+		<br />
+		
 		<h:messages id="msg" />
 
 		<h:commandButton value="Dodaj" action="#{calcBB.calc()}"/>
